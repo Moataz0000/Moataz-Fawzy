@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
   <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Discover the work of Moataz Fawzy, a skilled Django backend developer. This portfolio highlights professional projects, APIs, and achievements in web development using Django, DRF, and PostgreSQL. Available for freelance and remote opportunities.">
-
-
-
+  <meta name="description"
+    content="Discover the work of Moataz Fawzy, a skilled Django backend developer. This portfolio highlights professional projects, APIs, and achievements in web development using Django, DRF, and PostgreSQL. Available for freelance and remote opportunities.">
 
   <!-- Title -->
   <title>Moataz Fawzy | Backend Engineer</title>
@@ -22,9 +21,10 @@
   <!-- Theme Check and Update -->
   <script>
     const html = document.querySelector('html');
-    const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
-    const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-
+    const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') ===
+      'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+    const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches);
     if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
     else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
     else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
@@ -38,33 +38,41 @@
 <body class="dark:bg-neutral-900">
   <!-- ========== HEADER ========== -->
   <header class="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
-    <nav class="mt-4 relative max-w-2xl w-full bg-white border border-gray-200 rounded-[24px] mx-2 flex flex-wrap md:flex-nowrap items-center justify-between p-1 ps-4 md:py-0 sm:mx-auto dark:bg-neutral-900 dark:border-neutral-700">
+    <nav
+      class="mt-4 relative max-w-2xl w-full bg-white border border-gray-200 rounded-[24px] mx-2 flex flex-wrap md:flex-nowrap items-center justify-between p-1 ps-4 md:py-0 sm:mx-auto dark:bg-neutral-900 dark:border-neutral-700">
       <div class="flex items-center">
         <!-- Logo -->
-        <a class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80" href="#">
-        <span class="flex items-center gap-2">
-          <!-- Simple white logo icon (M in a circle) -->
-          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white shadow-md">
-            <span class="font-extrabold text-xl text-blue-700">M</span>
+        <a class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
+          href="#">
+          <span class="flex items-center gap-2">
+            <!-- Simple white logo icon (M in a circle) -->
+            <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white shadow-md">
+              <span class="font-extrabold text-xl text-blue-700">M</span>
+            </span>
+            <span class="font-extrabold text-lg text-gray-900 dark:text-white tracking-wide">Moataz</span>
           </span>
-          <span class="font-extrabold text-lg text-gray-900 dark:text-white tracking-wide">Moataz</span>
-        </span>
         </a>
         <!-- End Logo -->
       </div>
 
       <div class="flex items-center gap-1 md:order-4 md:ms-4">
-  
 
         <div class="md:hidden">
           <!-- Toggle Button -->
-          <button type="button" class="hs-collapse-toggle flex justify-center items-center size-9.5 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" id="hs-navbar-header-floating-collapse" aria-expanded="false" aria-controls="hs-navbar-header-floating" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-header-floating">
-            <svg class="hs-collapse-open:hidden shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <button type="button"
+            class="hs-collapse-toggle flex justify-center items-center size-9.5 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+            id="hs-navbar-header-floating-collapse" aria-expanded="false" aria-controls="hs-navbar-header-floating"
+            aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-header-floating">
+            <svg class="hs-collapse-open:hidden shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <line x1="3" x2="21" y1="6" y2="6" />
               <line x1="3" x2="21" y1="12" y2="12" />
               <line x1="3" x2="21" y1="18" y2="18" />
             </svg>
-            <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
               <path d="M18 6 6 18" />
               <path d="m6 6 12 12" />
             </svg>
@@ -73,13 +81,21 @@
         </div>
       </div>
 
-      <div id="hs-navbar-header-floating" class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-navbar-header-floating-collapse">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-end gap-2 md:gap-3 mt-3 md:mt-0 py-2 md:py-0 md:ps-7">
-          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200" href="#projects">Projects</a>
-          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200" href="#skills">Skills</a>
-          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200" href="#experience">Experience</a>
-          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200" href="#education">Education</a>
-          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200" href="#contact">Contact Me</a>
+      <div id="hs-navbar-header-floating"
+        class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block"
+        aria-labelledby="hs-navbar-header-floating-collapse">
+        <div
+          class="flex flex-col md:flex-row md:items-center md:justify-end gap-2 md:gap-3 mt-3 md:mt-0 py-2 md:py-0 md:ps-7">
+          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
+            href="#projects">Projects</a>
+          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
+            href="#skills">Skills</a>
+          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
+            href="#experience">Experience</a>
+          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
+            href="#education">Education</a>
+          <a class="py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-2 border-transparent text-gray-500 hover:text-gray-800 focus:outline-hidden dark:text-neutral-400 dark:hover:text-neutral-200"
+            href="#contact">Contact Me</a>
         </div>
       </div>
     </nav>
@@ -103,8 +119,10 @@
             <!-- Green spot for availability -->
             <span class="inline-flex items-center">
               <span class="relative flex h-3 w-3">
-                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500 border-2 border-white dark:border-neutral-900"></span>
+                <span
+                  class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span
+                  class="relative inline-flex rounded-full h-3 w-3 bg-green-500 border-2 border-white dark:border-neutral-900"></span>
               </span>
               <span class="ml-1 text-xs text-green-600 dark:text-green-400">Available</span>
             </span>
@@ -119,81 +137,91 @@
       <!-- About -->
       <div class="mt-8">
         <p class="text-sm text-gray-600 dark:text-neutral-400">
-          I am a Backend Engineer with over <b>2</b> years of hands‑on experience building high‑performance web applications using Python,
+          I am a Backend Engineer with over <b>2</b> years of hands‑on experience building high‑performance web
+          applications using Python,
           Django and Django REST Framework. My strong foundation in algorithms, data structures and database design,
           combined with expertise in software architecture and AWS‑powered CI/CD pipelines,
           enables me to architect scalable systems and deliver robust, maintainable APIs.
         </p>
 
-<p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
-  Currently, I work remotely for 
-  <a href="https://www.eramgroupsa.com" target="_blank" class="text-green-500 inline-flex items-center gap-x-1">
-    EramGroup
-    <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14a4 4 0 005.656 0l3.535-3.535a4 4 0 00-5.656-5.656l-1.414 1.414"/>
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10a4 4 0 00-5.656 0l-3.535 3.535a4 4 0 005.656 5.656l1.414-1.414"/>
-    </svg>
-    </svg>
-  </a>
-</p>
-
-
-
+        <p class="mt-3 text-sm text-gray-600 dark:text-neutral-400">
+          Currently, I work remotely for
+          <a href="https://www.eramgroupsa.com" target="_blank" class="text-green-500 inline-flex items-center gap-x-1">
+            EramGroup
+            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-4 h-4 text-green-500" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M10 14a4 4 0 005.656 0l3.535-3.535a4 4 0 00-5.656-5.656l-1.414 1.414" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M14 10a4 4 0 00-5.656 0l-3.535 3.535a4 4 0 005.656 5.656l1.414-1.414" />
+            </svg>
+            </svg>
+          </a>
+        </p>
 
         <ul class="mt-5 flex flex-col gap-y-3">
           <li class="flex items-center gap-x-2.5">
-            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <rect width="20" height="16" x="2" y="4" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
-        <a
-          href="mailto:motazfawzy73@gmail.com"
-          class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
-        >
-          motazfawzy73@gmail.com
-        </a>
+            <a href="mailto:motazfawzy73@gmail.com"
+              class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400">
+              motazfawzy73@gmail.com
+            </a>
 
           </li>
-            <li class="flex items-center gap-x-2.5">
-            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.36.31.68.921.68 1.857 0 1.34-.012 2.42-.012 2.75 0 .268.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2Z" fill="currentColor"/>
+          <li class="flex items-center gap-x-2.5">
+            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.36.31.68.921.68 1.857 0 1.34-.012 2.42-.012 2.75 0 .268.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2Z"
+                fill="currentColor" />
             </svg>
-            <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400" href="https://github.com/Moataz0000" target="_blank" rel="noopener noreferrer">
+            <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+              href="https://github.com/Moataz0000" target="_blank" rel="noopener noreferrer">
               github.com/moataz-fawzy
             </a>
           </li>
-          
 
-  <li class="flex items-center gap-x-2.5">
-  <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 w-4 h-4 text-gray-800 dark:text-neutral-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-      d="M16 8a6 6 0 016 6v6h-4v-6a2 2 0 00-4 0v6h-4v-6a6 6 0 016-6zM2 9h4v12H2zM4 3a2 2 0 110 4 2 2 0 010-4z"
-    />
-  </svg>
-  <a
-    href="https://www.linkedin.com/in/moataz-fawzy-backend"
-    class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
-    target="_blank" rel="noopener noreferrer"
-  >
-    linkedin.com/in/moataz-fawzy-backend
-  </a>
-</li>
           <li class="flex items-center gap-x-2.5">
-            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14.1881 10.1624L22.7504 0H20.7214L13.2868 8.82385L7.34878 0H0.5L9.47944 13.3432L0.5 24H2.5291L10.3802 14.6817L16.6512 24H23.5L14.1881 10.1624ZM11.409 13.4608L3.26021 1.55962H6.37679L20.7224 22.5113H17.6058L11.409 13.4613V13.4608Z" fill="currentColor" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 w-4 h-4 text-gray-800 dark:text-neutral-200"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16 8a6 6 0 016 6v6h-4v-6a2 2 0 00-4 0v6h-4v-6a6 6 0 016-6zM2 9h4v12H2zM4 3a2 2 0 110 4 2 2 0 010-4z" />
             </svg>
-            <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400" href="https://x.com/Im_mezo_" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/moataz-fawzy-backend"
+              class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+              target="_blank" rel="noopener noreferrer">
+              linkedin.com/in/moataz-fawzy-backend
+            </a>
+          </li>
+          <li class="flex items-center gap-x-2.5">
+            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.1881 10.1624L22.7504 0H20.7214L13.2868 8.82385L7.34878 0H0.5L9.47944 13.3432L0.5 24H2.5291L10.3802 14.6817L16.6512 24H23.5L14.1881 10.1624ZM11.409 13.4608L3.26021 1.55962H6.37679L20.7224 22.5113H17.6058L11.409 13.4613V13.4608Z"
+                fill="currentColor" />
+            </svg>
+            <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+              href="https://x.com/Im_mezo_" target="_blank" rel="noopener noreferrer">
               @Im_mezo_
             </a>
           </li>
-                    <li class="flex items-center gap-x-2.5">
-            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <li class="flex items-center gap-x-2.5">
+            <svg class="shrink-0 size-3.5 text-gray-800 dark:text-neutral-200" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g>
-                <rect width="24" height="24" fill="none"/>
-                <path d="M21.8 7.2a2.75 2.75 0 0 0-1.93-1.94C18.1 5 12 5 12 5s-6.1 0-7.87.26A2.75 2.75 0 0 0 2.2 7.2 28.6 28.6 0 0 0 2 12a28.6 28.6 0 0 0 .2 4.8 2.75 2.75 0 0 0 1.93 1.94C5.9 19 12 19 12 19s6.1 0 7.87-.26a2.75 2.75 0 0 0 1.93-1.94A28.6 28.6 0 0 0 22 12a28.6 28.6 0 0 0-.2-4.8zM10 15.5v-7l6 3.5-6 3.5z" fill="currentColor"/>
+                <rect width="24" height="24" fill="none" />
+                <path
+                  d="M21.8 7.2a2.75 2.75 0 0 0-1.93-1.94C18.1 5 12 5 12 5s-6.1 0-7.87.26A2.75 2.75 0 0 0 2.2 7.2 28.6 28.6 0 0 0 2 12a28.6 28.6 0 0 0 .2 4.8 2.75 2.75 0 0 0 1.93 1.94C5.9 19 12 19 12 19s6.1 0 7.87-.26a2.75 2.75 0 0 0 1.93-1.94A28.6 28.6 0 0 0 22 12a28.6 28.6 0 0 0-.2-4.8zM10 15.5v-7l6 3.5-6 3.5z"
+                  fill="currentColor" />
               </g>
             </svg>
-            <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400" href="https://www.youtube.com/@bitwize-backend" target="_blank" rel="noopener noreferrer">
+            <a class="text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+              href="https://www.youtube.com/@bitwize-backend" target="_blank" rel="noopener noreferrer">
               youtube.com/@bitwize-backend
             </a>
           </li>
@@ -208,610 +236,780 @@
           Projects
         </h2>
 
-<!-- Image Grid -->
-<!-- Image Grid -->
-<div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
-  <!-- E-commerce Platform -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-ec')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/ec.png" alt="E-commerce Platform">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">E-commerce Platform</span>
-      </div>
-    </div>
-  </button>
-  <!-- E-commerce Dashboard -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-dash2')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/dash2.png" alt="E-commerce Dashboard">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">E-commerce Dashboard</span>
-      </div>
-    </div>
-  </button>
-  <!-- Home Service Dashboard - App -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-dash')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/dash.png" alt="Home Service Dashboard - App">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">Home Service Dashboard - App</span>
-      </div>
-    </div>
-  </button>
-  <!-- Real Time Chat app -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-chat')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/chat.jpg" alt="Real Time Chat app">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">Real Time Chat app</span>
-      </div>
-    </div>
-  </button>
-  <!-- Education Platform -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-el')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/el.jpg" alt="Education Platform">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">Education Platform</span>
-      </div>
-    </div>
-  </button>
-  <!-- Library Management System -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-lib')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/lib.png" alt="Library Management System">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">Library Management System</span>
-      </div>
-    </div>
-  </button>
-  <!-- Microservice Quiz API -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-quiz')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/quiz.png" alt="Microservice Quiz API">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">Microservice Quiz API</span>
-      </div>
-    </div>
-  </button>
-  <!-- Django Architecture Package -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-dj')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/dj.png" alt="Django Architecture Package">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">Django Architecture Package</span>
-      </div>
-    </div>
-  </button>
-  <!-- CRM - System -->
-  <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none" onclick="openModal('modal-crm')">
-    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="projects/crm.png" alt="CRM - System">
-    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <span class="text-xs">CRM - System</span>
-      </div>
-    </div>
-  </button>
-</div>
-<!-- End Image Grid -->
-
-<!-- Modals -->
-<div id="modal-ec" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-ec')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/ec.png" alt="E-commerce Platform" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">E-commerce Platform</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">A full-featured e-commerce platform with cart, coupons, PayPal integration, order tracking, dashboards, and secure authentication using Django and PostgreSQL.</p>
-  </div>
-</div>
-<div id="modal-dash2" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-dash2')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/dash2.png" alt="E-commerce Dashboard" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">E-commerce Dashboard</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">Admin dashboard for managing products, orders, analytics, and users in an e-commerce system. Built with Django admin and custom UI.</p>
-  </div>
-</div>
-<div id="modal-dash" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-dash')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/dash.png" alt="Home Service Dashboard - App" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">Home Service Dashboard - App</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">A dashboard for a home services app, enabling service providers to manage bookings, schedules, and customer interactions.</p>
-  </div>
-</div>
-<div id="modal-chat" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-chat')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/chat.jpg" alt="Real Time Chat app" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">Real Time Chat app</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">A real-time chat application using Django Channels and WebSockets for instant messaging between users.</p>
-  </div>
-</div>
-<div id="modal-el" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-el')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/el.jpg" alt="Education Platform" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">Education Platform</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">An online education platform for course management, student enrollment, and progress tracking, built with Django.</p>
-  </div>
-</div>
-<div id="modal-lib" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-lib')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/lib.png" alt="Library Management System" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">Library Management System</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">A system to manage library books, members, borrowing, and returns, with reporting and search features.</p>
-  </div>
-</div>
-<div id="modal-quiz" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-quiz')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/quiz.png" alt="Microservice Quiz API" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">Microservice Quiz API</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">A microservice API for quizzes, supporting question banks, scoring, and analytics, built with Django REST Framework.</p>
-  </div>
-</div>
-<div id="modal-dj" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-dj')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/dj.png" alt="Django Architecture Package" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">Django Architecture Package</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">A Django package for scalable, maintainable project structure, promoting modularity and best practices.</p>
-  </div>
-</div>
-<div id="modal-crm" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center">
-  <div class="bg-white dark:bg-neutral-900 rounded-2xl p-8 max-w-2xl w-full relative shadow-2xl">
-    <button onclick="closeModal('modal-crm')" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 dark:hover:text-white text-3xl">&times;</button>
-    <img src="projects/crm.png" alt="CRM - System" class="rounded-xl w-full mb-6 h-72 object-cover">
-    <h3 class="font-semibold text-2xl mb-2 text-gray-800 dark:text-neutral-200">CRM - System</h3>
-    <p class="text-base text-gray-600 dark:text-neutral-400">A CRM system for managing customer relationships, sales pipelines, and communications, built with Django.</p>
-  </div>
-</div>
-<!-- End Modals -->
-
-<script>
-  function openModal(id) {
-    document.getElementById(id).classList.remove('hidden');
-  }
-  function closeModal(id) {
-    document.getElementById(id).classList.add('hidden');
-  }
-  // Optional: Close modal on background click or ESC
-  document.addEventListener('click', function(e) {
-    document.querySelectorAll('[id^="modal-"]').forEach(function(modal) {
-      if (!modal.classList.contains('hidden') && e.target === modal) {
-        modal.classList.add('hidden');
-      }
-    });
-  });
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      document.querySelectorAll('[id^="modal-"]').forEach(function(modal) {
-        modal.classList.add('hidden');
-      });
-    }
-  });
-</script>
-      <!-- End Projects -->
-
-
-
-
-      <div class="mt-10 sm:mt-14">
-
-<!-- My Django Packages Section -->
-  <h2 class="mb-6 font-medium text-gray-800 dark:text-neutral-200 text-xl">
-    My Django Packages
-  </h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-    <!-- Card 1 -->
-    <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5" href="https://pypi.org/project/django-layered-start/" target="_blank">
-      <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
-        django-architecture
-      </h3>
-      <p class="text-sm text-gray-500 dark:text-neutral-400">
-        Structure Django projects for scalable, maintainable codebases. Promotes modularity and best practices.
-      </p>
-    </a>
-    <!-- Card 2 -->
-    <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5" href="https://pypi.org/project/restquest/" target="_blank">
-      <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
-        Restquest | API Client
-      </h3>
-      <p class="text-sm text-gray-500 dark:text-neutral-400">
-        Python package to test API endpoints easily.
-      </p>
-    </a>
-    <!-- Card 3 -->
-    <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5" href="https://pypi.org/project/Django-GCC-PhoneNumbers/" target="_blank">
-      <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
-        Django-GCC-PhoneNumbers
-      </h3>
-      <p class="text-sm text-gray-500 dark:text-neutral-400">
-        Flexible phone number validation for GCC countries and Egypt.
-      </p>
-    </a>
-    <!-- Card 4 -->
-    <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5" href="https://pypi.org/project/egyptian-phone-validator/" target="_blank">
-      <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
-        egyptian-phone-validator
-      </h3>
-      <p class="text-sm text-gray-500 dark:text-neutral-400">
-        Django package to validate Egyptian phone numbers.
-      </p>
-    </a>
-  </div>
-<!-- End My Django Packages Section -->
-</div>
-
-<!-- Skills -->
-<div class="my-10 sm:my-14" id="skills">
-  <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
-    Skills
-  </h2>
-
-  <!-- List -->
-  <div class="space-y-3">
-    <dl class="flex flex-col sm:flex-row gap-1">
-      <dt class="min-w-40">
-        <span class="block text-sm text-gray-500 dark:text-neutral-500">Programming:</span>
-      </dt>
-      <dd>
-        <ul>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            C, Python
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Data Structures
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Algorithms
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            OOP
-          </li>
-        </ul>
-      </dd>
-    </dl>
-
-    <dl class="flex flex-col sm:flex-row gap-1">
-      <dt class="min-w-40">
-        <span class="block text-sm text-gray-500 dark:text-neutral-500">Web Development:</span>
-      </dt>
-      <dd>
-        <ul>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            HTML
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Django
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Django Rest Framework, FastAPI
-          </li>
-        </ul>
-      </dd>
-    </dl>
-
-    <dl class="flex flex-col sm:flex-row gap-1">
-      <dt class="min-w-40">
-        <span class="block text-sm text-gray-500 dark:text-neutral-500">Databases:</span>
-      </dt>
-      <dd>
-        <ul>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Database Design
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            PostgreSQL
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            MySQL
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            SQLite
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            MongoDB
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            ORM
-          </li>
-        </ul>
-      </dd>
-    </dl>
-
-    <dl class="flex flex-col sm:flex-row gap-1">
-      <dt class="min-w-40">
-        <span class="block text-sm text-gray-500 dark:text-neutral-500">DevOps:</span>
-      </dt>
-      <dd>
-        <ul>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            AWS
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Git
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            GitHub
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            CI/CD
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Deployment
-          </li>
-        </ul>
-      </dd>
-    </dl>
-
-    <dl class="flex flex-col sm:flex-row gap-1">
-      <dt class="min-w-40">
-        <span class="block text-sm text-gray-500 dark:text-neutral-500">Software Design:</span>
-      </dt>
-      <dd>
-        <ul>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Design Patterns
-          </li>
-          <li class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
-            Software Architecture, Requirements Analysis
-          </li>
-        </ul>
-      </dd>
-    </dl>
-  </div>
-  <!-- End List -->
-</div>
-<!-- End Skills -->
-      <!-- Work Experience -->
-      <div class="mt-10 sm:mt-14" id="experience">
-        <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
-          Work experience
-        </h2>
-
-        <!-- Timeline -->
-        <div>
-          <!-- Item -->
-          <div class="group relative flex gap-x-5">
-            <!-- Icon -->
-            <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
-              <div class="relative z-10 size-6 flex justify-center items-center">
-                <img class="mb-3 w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover" src="eram.png" alt="Education Image">
+        <!-- Image Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+          <!-- E-commerce Platform -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-ec')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/ec.png"
+                alt="E-commerce Platform">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">E-commerce Platform</span>
               </div>
             </div>
-            <!-- End Icon -->
-
-            <!-- Right Content -->
-            <div class="grow pb-8 group-last:pb-0">
-              <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
-                2024 - Present
-              </h3>
-
-              <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-                Backend Engineer at EramGroup
-              </p>
-
-              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-              EramGroup is a leading group of companies that provides integrated and innovative solutions in various fields including media, technology, and logistics...etc</p>
-
-
+          </button>
+          <!-- E-commerce Dashboard -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-dash2')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800"
+                src="projects/dash2.png" alt="E-commerce Dashboard">
             </div>
-            <!-- End Right Content -->
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">E-commerce Dashboard</span>
+              </div>
+            </div>
+          </button>
+          <!-- Home Service Dashboard - App -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-dash')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/dash.png"
+                alt="Home Service Dashboard - App">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">Home Service Dashboard - App</span>
+              </div>
+            </div>
+          </button>
+          <!-- Real Time Chat app -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-chat')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/chat.jpg"
+                alt="Real Time Chat app">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">Real Time Chat app</span>
+              </div>
+            </div>
+          </button>
+          <!-- Education Platform -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-el')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/el.jpg"
+                alt="Education Platform">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">Education Platform</span>
+              </div>
+            </div>
+          </button>
+          <!-- Library Management System -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-lib')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/lib.png"
+                alt="Library Management System">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">Library Management System</span>
+              </div>
+            </div>
+          </button>
+          <!-- Microservice Quiz API -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-quiz')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/quiz.png"
+                alt="Microservice Quiz API">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">Microservice Quiz API</span>
+              </div>
+            </div>
+          </button>
+          <!-- Django Architecture Package -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-dj')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/dj.png"
+                alt="Django Architecture Package">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">Django Architecture Package</span>
+              </div>
+            </div>
+          </button>
+          <!-- CRM - System -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-crm')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="projects/crm.png"
+                alt="CRM - System">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">CRM - System</span>
+              </div>
+            </div>
+          </button>
+          <!-- Social Media Backend -->
+          <button type="button" class="group block relative overflow-hidden rounded-lg focus:outline-none"
+            onclick="openModal('modal-so')">
+            <div class="aspect-w-1 aspect-h-1 w-full">
+              <img class="w-full h-full object-cover rounded-lg bg-gray-100 dark:bg-neutral-800" src="so.png"
+                alt="Social Media Backend">
+            </div>
+            <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+              <div
+                class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" /></svg>
+                <span class="text-xs">Social Media Backend</span>
+              </div>
+            </div>
+          </button>
+        </div>
+        <!-- End Image Grid -->
+
+        <!-- Modals -->
+        <div id="modal-ec" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-ec')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/ec.png" alt="E-commerce Platform" class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">E-commerce Platform</h3>
+            <p class="text-gray-600 dark:text-neutral-400">A full-featured e-commerce platform built with Django and
+              PostgreSQL.</p>
           </div>
-          <!-- End Item -->
-
-
-
-  
-
-          <!-- Item -->
-          <div class="group relative flex gap-x-5">
-            <!-- Icon -->
-            <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
-              <div class="relative z-10 size-6 flex justify-center items-center">
-                <svg class="shrink-0 size-6 text-gray-800 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 12h.01" />
-                  <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-                  <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-                  <rect width="20" height="14" x="2" y="6" rx="2" />
-                </svg>
-              </div>
-            </div>
-            <!-- End Icon -->
-
-            <!-- Freelance Content -->
-            <div class="grow pb-8 group-last:pb-0">
-              <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
-                2023 - 2024
-              </h3>
-
-              <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-                Freelance Backend Developer
-              </p>
-                          <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-Backend Developer specialized in Django, delivering robust APIs and scalable backend systems for global clients on Upwork. Proficient in PostgreSQL, RESTful architecture, CI/CD, and AWS deployment.
-
-
-            </div>
-            <!-- End Right Content -->
-             
+        </div>
+        <div id="modal-dash2" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-dash2')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/dash2.png" alt="E-commerce Dashboard" class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">E-commerce Dashboard</h3>
+            <p class="text-gray-600 dark:text-neutral-400">Admin dashboard for managing products, orders, and analytics.
+            </p>
           </div>
-          <!-- End Item -->
+        </div>
+        <div id="modal-dash" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-dash')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/dash.png" alt="Home Service Dashboard - App"
+              class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">Home Service Dashboard - App</h3>
+            <p class="text-gray-600 dark:text-neutral-400">Dashboard for managing home service requests and providers.
+            </p>
+          </div>
+        </div>
+        <div id="modal-chat" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-chat')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/chat.jpg" alt="Real Time Chat app" class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">Real Time Chat app</h3>
+            <p class="text-gray-600 dark:text-neutral-400">A real-time chat application with WebSocket support.</p>
+          </div>
+        </div>
+        <div id="modal-el" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-el')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/el.jpg" alt="Education Platform" class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">Education Platform</h3>
+            <p class="text-gray-600 dark:text-neutral-400">Online education platform for courses and quizzes.</p>
+          </div>
+        </div>
+        <div id="modal-lib" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-lib')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/lib.png" alt="Library Management System"
+              class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">Library Management System</h3>
+            <p class="text-gray-600 dark:text-neutral-400">System for managing library books, members, and loans.</p>
+          </div>
+        </div>
+        <div id="modal-quiz" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-quiz')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/quiz.png" alt="Microservice Quiz API" class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">Microservice Quiz API</h3>
+            <p class="text-gray-600 dark:text-neutral-400">Quiz API built as a microservice with Django REST Framework.
+            </p>
+          </div>
+        </div>
+        <div id="modal-dj" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-dj')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/dj.png" alt="Django Architecture Package"
+              class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">Django Architecture Package</h3>
+            <p class="text-gray-600 dark:text-neutral-400">A package for structuring scalable Django projects.</p>
+          </div>
+        </div>
+        <div id="modal-crm" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-crm')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="projects/crm.png" alt="CRM - System" class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">CRM - System</h3>
+            <p class="text-gray-600 dark:text-neutral-400">Customer Relationship Management system for businesses.</p>
+          </div>
+        </div>
+        <div id="modal-so" class="hidden fixed inset-0 z-50 flex items-center justify-center">
+          <div class="bg-white dark:bg-neutral-900 rounded-lg p-6 max-w-md w-full relative">
+            <button onclick="closeModal('modal-so')"
+              class="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200">&times;</button>
+            <img src="so.png" alt="Social Media Backend" class="w-full h-auto rounded mb-4 object-contain">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800 dark:text-neutral-200">Social Media Backend</h3>
+            <p class="text-gray-600 dark:text-neutral-400">
+              This project is a scalable and extensible social media backend built with best practices in mind. It
+              supports a full-featured ecosystem including user accounts, follow system, multimedia posts, likes,
+              comments, privacy settings, and full-text search capabilities.
+            </p>
+          </div>
+        </div>
 
+        <script>
+          function openModal(id) {
+            document.querySelectorAll('[id^="modal-"]').forEach(function(modal) {
+              modal.classList.add('hidden');
+            });
+            document.getElementById(id).classList.remove('hidden');
+          }
 
-                    <!-- Item -->
-          <div class="group relative flex gap-x-5">
-            <!-- Icon -->
-            <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
-              <div class="relative z-10 size-6 flex justify-center items-center">
-                <svg class="shrink-0 size-6 text-gray-800 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M4 10v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6" />
-                  <path d="M12 4l8 6H4l8-6z" />
-                  <path d="M9 16v-2a3 3 0 0 1 6 0v2" />
-                </svg>
+          function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+          }
+          // Optional: Close modal on background click or ESC
+          document.addEventListener('click', function(e) {
+            document.querySelectorAll('[id^="modal-"]').forEach(function(modal) {
+              if (!modal.classList.contains('hidden') && e.target === modal) {
+                modal.classList.add('hidden');
+              }
+            });
+          });
+          document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+              document.querySelectorAll('[id^="modal-"]').forEach(function(modal) {
+                modal.classList.add('hidden');
+              });
+            }
+          });
+        </script>
+        <!-- End Projects -->
+
+        <div class="mt-10 sm:mt-14">
+
+          <!-- My Django Packages Section -->
+          <h2 class="mb-6 font-medium text-gray-800 dark:text-neutral-200 text-xl">
+            My Django Packages
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <!-- Card 1 -->
+            <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5"
+              href="https://pypi.org/project/django-layered-start/" target="_blank">
+              <h3
+                class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
+                django-architecture
+              </h3>
+              <p class="text-sm text-gray-500 dark:text-neutral-400">
+                Structure Django projects for scalable, maintainable codebases. Promotes modularity and best practices.
+              </p>
+            </a>
+            <!-- Card 2 -->
+            <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5"
+              href="https://pypi.org/project/restquest/" target="_blank">
+              <h3
+                class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
+                Restquest | API Client
+              </h3>
+              <p class="text-sm text-gray-500 dark:text-neutral-400">
+                Python package to test API endpoints easily.
+              </p>
+            </a>
+            <!-- Card 3 -->
+            <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5"
+              href="https://pypi.org/project/Django-GCC-PhoneNumbers/" target="_blank">
+              <h3
+                class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
+                Django-GCC-PhoneNumbers
+              </h3>
+              <p class="text-sm text-gray-500 dark:text-neutral-400">
+                Flexible phone number validation for GCC countries and Egypt.
+              </p>
+            </a>
+            <!-- Card 4 -->
+            <a class="group flex flex-col bg-white border border-gray-200 rounded-lg hover:shadow-md focus:outline-none transition dark:bg-neutral-900 dark:border-neutral-800 p-5"
+              href="https://pypi.org/project/egyptian-phone-validator/" target="_blank">
+              <h3
+                class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200 text-base mb-1">
+                egyptian-phone-validator
+              </h3>
+              <p class="text-sm text-gray-500 dark:text-neutral-400">
+                Django package to validate Egyptian phone numbers.
+              </p>
+            </a>
+          </div>
+          <!-- End My Django Packages Section -->
+        </div>
+
+        <!-- Skills -->
+        <div class="my-10 sm:my-14" id="skills">
+          <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
+            Skills
+          </h2>
+
+          <!-- List -->
+          <div class="space-y-3">
+            <dl class="flex flex-col sm:flex-row gap-1">
+              <dt class="min-w-40">
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Programming:</span>
+              </dt>
+              <dd>
+                <ul>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    C, Python
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Data Structures
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Algorithms
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    OOP
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="flex flex-col sm:flex-row gap-1">
+              <dt class="min-w-40">
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Web Development:</span>
+              </dt>
+              <dd>
+                <ul>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    HTML
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Django
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Django Rest Framework, FastAPI
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="flex flex-col sm:flex-row gap-1">
+              <dt class="min-w-40">
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Databases:</span>
+              </dt>
+              <dd>
+                <ul>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Database Design
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    PostgreSQL
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    MySQL
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    SQLite
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    MongoDB
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    ORM
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="flex flex-col sm:flex-row gap-1">
+              <dt class="min-w-40">
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">DevOps:</span>
+              </dt>
+              <dd>
+                <ul>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    AWS
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Git
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    GitHub
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    CI/CD
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Deployment
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <dl class="flex flex-col sm:flex-row gap-1">
+              <dt class="min-w-40">
+                <span class="block text-sm text-gray-500 dark:text-neutral-500">Software Design:</span>
+              </dt>
+              <dd>
+                <ul>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Design Patterns
+                  </li>
+                  <li
+                    class="me-1 after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200">
+                    Software Architecture, Requirements Analysis
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+          <!-- End List -->
+        </div>
+        <!-- End Skills -->
+        <!-- Work Experience -->
+        <div class="mt-10 sm:mt-14" id="experience">
+          <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
+            Work experience
+          </h2>
+
+          <!-- Timeline -->
+          <div>
+            <!-- Item -->
+            <div class="group relative flex gap-x-5">
+              <!-- Icon -->
+              <div
+                class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div class="relative z-10 size-6 flex justify-center items-center">
+                  <img class="mb-3 w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover" src="eram.png"
+                    alt="Education Image">
+                </div>
               </div>
-            </div>
-            <!-- End Icon -->
+              <!-- End Icon -->
 
-            <!-- Freelance Content -->
-            <div class="grow pb-8 group-last:pb-0">
+              <!-- Right Content -->
+              <div class="grow pb-8 group-last:pb-0">
+                <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  2024 - Present
+                </h3>
+
+                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  Backend Engineer at EramGroup
+                </p>
+
+                <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  EramGroup is a leading group of companies that provides integrated and innovative solutions in various
+                  fields including media, technology, and logistics...etc</p>
+
+              </div>
+              <!-- End Right Content -->
+            </div>
+            <!-- End Item -->
+
+            <!-- Item -->
+            <div class="group relative flex gap-x-5">
+              <!-- Icon -->
+              <div
+                class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div class="relative z-10 size-6 flex justify-center items-center">
+                  <svg class="shrink-0 size-6 text-gray-800 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 12h.01" />
+                    <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                    <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+                    <rect width="20" height="14" x="2" y="6" rx="2" />
+                  </svg>
+                </div>
+              </div>
+              <!-- End Icon -->
+
+              <!-- Freelance Content -->
+              <div class="grow pb-8 group-last:pb-0">
+                <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  2023 - 2024
+                </h3>
+
+                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  Freelance Backend Developer
+                </p>
+                <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  Backend Developer specialized in Django, delivering robust APIs and scalable backend systems for
+                  global clients on Upwork. Proficient in PostgreSQL, RESTful architecture, CI/CD, and AWS deployment.
+
+              </div>
+              <!-- End Right Content -->
+
+            </div>
+            <!-- End Item -->
+
+            <!-- Item -->
+            <div class="group relative flex gap-x-5">
+              <!-- Icon -->
+              <div
+                class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+                <div class="relative z-10 size-6 flex justify-center items-center">
+                  <svg class="shrink-0 size-6 text-gray-800 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 10v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6" />
+                    <path d="M12 4l8 6H4l8-6z" />
+                    <path d="M9 16v-2a3 3 0 0 1 6 0v2" />
+                  </svg>
+                </div>
+              </div>
+              <!-- End Icon -->
+
+              <!-- Freelance Content -->
+              <div class="grow pb-8 group-last:pb-0">
+                <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                  2020 - 2024
+                </h3>
+
+                <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                  Graduated Project | Shrouk Academy
+                </p>
+                <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                  Developed a full e-commerce platform with cart, coupons, PayPal integration, order tracking,
+                  dashboards, and secure auth using Django and PostgreSQL.
+
+              </div>
+              <!-- End Right Content -->
+
+            </div>
+            <!-- End Item -->
+          </div>
+          <!-- End Timeline -->
+        </div>
+        <!-- End Work Experience -->
+
+        <!-- Education -->
+        <div class="mt-10 sm:mt-14" id="education">
+          <h2 class="mb-3 font-medium text-gray-800 dark:text-neutral-200">
+            Education
+          </h2>
+
+          <!-- Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
+              <img class="mb-3 size-10 rounded-full" src="logo.png" alt="Education Image">
+
               <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
                 2020 - 2024
               </h3>
 
               <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-                Graduated Project | Shrouk Academy
+                Bachelor's degree in Information Systems
               </p>
-                          <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-Developed a full e-commerce platform with cart, coupons, PayPal integration, order tracking, dashboards, and secure auth using Django and PostgreSQL.
 
-
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                El-Shorouk Academy
+              </p>
             </div>
-            <!-- End Right Content -->
-             
+
+            <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
+              <img class="mb-3 size-10 rounded-full" src="har.png" alt="Education Image">
+              <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                2021 - 2022
+              </h3>
+
+              <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                CS50's Introduction to Computer Science
+              </p>
+
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                Harvard University (edX)
+              </p>
+            </div>
+
+            <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
+              <img class="mb-3 size-10 rounded-full" src="meta.png" alt="Education Image">
+              <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                2022 - 2023
+              </h3>
+
+              <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                Courese in Django Backend
+              </p>
+
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                Meta (Coursera)
+              </p>
+            </div>
+
+            <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
+              <img class="mb-3 size-10 rounded-full" src="meta.png" alt="Education Image">
+              <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+                2022 - 2023
+              </h3>
+
+              <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+                Courese in Django Restframework API
+              </p>
+
+              <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+                Meta (Coursera)
+              </p>
+            </div>
+            <p class="sm:col-span-2 text-xs text-gray-500 dark:text-neutral-500 mt-2">
+              <b>Other skills (Self Study):</b> Continuously learning new technologies and best practices through online
+              resources, documentation, and hands-on projects.
+            </p>
           </div>
-          <!-- End Item -->
+          <!-- End Grid -->
         </div>
-        <!-- End Timeline -->
-      </div>
-      <!-- End Work Experience -->
+        <!-- End Education -->
 
-      <!-- Education -->
-      <div class="mt-10 sm:mt-14" id="education">
-        <h2 class="mb-3 font-medium text-gray-800 dark:text-neutral-200">
-          Education
-        </h2>
-
-        <!-- Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
-            <img class="mb-3 size-10 rounded-full" src="logo.png" alt="Education Image">
-
-            <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
-              2020 - 2024
-            </h3>
-
-            <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-              Bachelor's degree in Information Systems
-            </p>
-
-            <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-              El-Shorouk Academy
-            </p>
+        <!-- Contact Form Only -->
+        <div class="mt-10 sm:mt-14" id="contact">
+          <div class="flex flex-col border border-gray-200 rounded-xl p-4 sm:p-6 lg:p-8 dark:border-neutral-700">
+            <h2 class="mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200">
+              Contact Me
+            </h2>
+            <form method="post" action="mailto:motazfawzy73@gmail.com" enctype="text/plain">
+              <div class="grid gap-4">
+                <!-- Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="hs-firstname-contacts-1" class="sr-only">First Name</label>
+                    <input type="text" name="First Name" id="hs-firstname-contacts-1"
+                      class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                      placeholder="First Name" required>
+                  </div>
+                  <div>
+                    <label for="hs-lastname-contacts-1" class="sr-only">Last Name</label>
+                    <input type="text" name="Last Name" id="hs-lastname-contacts-1"
+                      class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                      placeholder="Last Name" required>
+                  </div>
+                </div>
+                <!-- End Grid -->
+                <div>
+                  <label for="hs-subject-contacts-1" class="sr-only">Subject</label>
+                  <input type="text" name="Subject" id="hs-subject-contacts-1"
+                    class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                    placeholder="Subject" required>
+                </div>
+                <div>
+                  <label for="hs-email-contacts-1" class="sr-only">Email</label>
+                  <input type="email" name="Email" id="hs-email-contacts-1" autocomplete="email"
+                    class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                    placeholder="Your Email" required>
+                </div>
+                <div>
+                  <label for="hs-about-contacts-1" class="sr-only">Details</label>
+                  <textarea id="hs-about-contacts-1" name="Details" rows="4"
+                    class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                    placeholder="Details" required></textarea>
+                </div>
+              </div>
+              <!-- End Grid -->
+              <div class="mt-4 grid">
+                <button type="submit"
+                  class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">Submit</button>
+              </div>
+              <div class="mt-3 text-center">
+                <p class="text-sm text-gray-500 dark:text-neutral-500">
+                  I'll get back to you in 1-2 business days.
+                </p>
+              </div>
+            </form>
           </div>
-
-          <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
-               <img class="mb-3 size-10 rounded-full" src="har.png" alt="Education Image">
-            <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
-              2021 - 2022
-            </h3>
-
-            <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-              CS50's Introduction to Computer Science
-            </p>
-
-            <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-              Harvard University (edX)
-            </p>
-          </div>
-
-          <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
-               <img class="mb-3 size-10 rounded-full" src="meta.png" alt="Education Image">
-            <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
-              2022 - 2023
-            </h3>
-
-            <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-              Courese in Django Backend
-            </p>
-
-            <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-              Meta (Coursera)
-            </p>
-          </div>
-
-          <div class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700">
-               <img class="mb-3 size-10 rounded-full" src="meta.png" alt="Education Image">
-            <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
-              2022 - 2023
-            </h3>
-
-            <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
-              Courese in Django Restframework API
-            </p>
-
-            <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
-              Meta (Coursera)
-            </p>
-          </div>
-          <p class="sm:col-span-2 text-xs text-gray-500 dark:text-neutral-500 mt-2">
-            <b>Other skills (Self Study):</b> Continuously learning new technologies and best practices through online resources, documentation, and hands-on projects.
-          </p>
         </div>
-        <!-- End Grid -->
+        <!-- End Contact Form Only -->
       </div>
-      <!-- End Education -->
-
-
-<!-- Contact Form Only -->
-<div class="mt-10 sm:mt-14" id="contact">
-  <div class="flex flex-col border border-gray-200 rounded-xl p-4 sm:p-6 lg:p-8 dark:border-neutral-700">
-    <h2 class="mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200">
-      Contact Me
-    </h2>
-    <form method="post" action="mailto:motazfawzy73@gmail.com" enctype="text/plain">
-      <div class="grid gap-4">
-      <!-- Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div>
-        <label for="hs-firstname-contacts-1" class="sr-only">First Name</label>
-        <input type="text" name="First Name" id="hs-firstname-contacts-1" class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="First Name" required>
-        </div>
-        <div>
-        <label for="hs-lastname-contacts-1" class="sr-only">Last Name</label>
-        <input type="text" name="Last Name" id="hs-lastname-contacts-1" class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="Last Name" required>
-        </div>
-      </div>
-      <!-- End Grid -->
-      <div>
-        <label for="hs-subject-contacts-1" class="sr-only">Subject</label>
-        <input type="text" name="Subject" id="hs-subject-contacts-1" class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="Subject" required>
-      </div>
-      <div>
-        <label for="hs-email-contacts-1" class="sr-only">Email</label>
-        <input type="email" name="Email" id="hs-email-contacts-1" autocomplete="email" class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="Your Email" required>
-      </div>
-      <div>
-        <label for="hs-about-contacts-1" class="sr-only">Details</label>
-        <textarea id="hs-about-contacts-1" name="Details" rows="4" class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="Details" required></textarea>
-      </div>
-      </div>
-      <!-- End Grid -->
-      <div class="mt-4 grid">
-      <button type="submit" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">Submit</button>
-      </div>
-      <div class="mt-3 text-center">
-      <p class="text-sm text-gray-500 dark:text-neutral-500">
-        I'll get back to you in 1-2 business days.
-      </p>
-      </div>
-    </form>
-  </div>
-</div>
-<!-- End Contact Form Only -->
-    </div>
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
 
@@ -828,32 +1026,45 @@ Developed a full e-commerce platform with cart, coupons, PayPal integration, ord
 
         <!-- List -->
         <ul class="flex flex-wrap items-center">
-          <li class="inline-block relative pe-4 text-xs last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-1.5 before:-translate-y-1/2 before:size-[3px] before:rounded-full before:bg-gray-400 dark:text-neutral-500 dark:before:bg-neutral-600">
-            <a class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400" href="https://x.com/Im_mezo_" target="_blank">
+          <li
+            class="inline-block relative pe-4 text-xs last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-1.5 before:-translate-y-1/2 before:size-[3px] before:rounded-full before:bg-gray-400 dark:text-neutral-500 dark:before:bg-neutral-600">
+            <a class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+              href="https://x.com/Im_mezo_" target="_blank">
               X (Twitter)
             </a>
           </li>
-          <li class="inline-block relative pe-4 text-xs last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-1.5 before:-translate-y-1/2 before:size-[3px] before:rounded-full before:bg-gray-400 dark:text-neutral-500 dark:before:bg-neutral-600">
-            <a class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400" href="https://www.linkedin.com/in/moataz-fawzy-backend" target="_blank">
+          <li
+            class="inline-block relative pe-4 text-xs last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-1.5 before:-translate-y-1/2 before:size-[3px] before:rounded-full before:bg-gray-400 dark:text-neutral-500 dark:before:bg-neutral-600">
+            <a class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+              href="https://www.linkedin.com/in/moataz-fawzy-backend" target="_blank">
               LinkedIn
             </a>
           </li>
           <li class="inline-block pe-4 text-xs">
-            <a class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400" href="https://github.com/Moataz0000" target="_blank">
+            <a class="text-xs text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-hidden focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
+              href="https://github.com/Moataz0000" target="_blank">
               Github
             </a>
           </li>
           <li class="inline-block">
             <!-- Dark Mode -->
-            <button type="button" class="hs-dark-mode hs-dark-mode-active:hidden relative flex justify-center items-center size-7 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" data-hs-theme-click-value="dark">
+            <button type="button"
+              class="hs-dark-mode hs-dark-mode-active:hidden relative flex justify-center items-center size-7 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              data-hs-theme-click-value="dark">
               <span class="sr-only">Dark</span>
-              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
                 <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
               </svg>
             </button>
-            <button type="button" class="hs-dark-mode hs-dark-mode-active:flex hidden relative flex justify-center items-center size-7 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700" data-hs-theme-click-value="light">
+            <button type="button"
+              class="hs-dark-mode hs-dark-mode-active:flex hidden relative flex justify-center items-center size-7 border border-gray-200 text-gray-500 rounded-full hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200 dark:border-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+              data-hs-theme-click-value="light">
               <span class="sr-only">Light</span>
-              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
                 <circle cx="12" cy="12" r="4"></circle>
                 <path d="M12 2v2"></path>
                 <path d="M12 20v2"></path>
@@ -885,13 +1096,13 @@ Developed a full e-commerce platform with cart, coupons, PayPal integration, ord
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B73TDMXKF5"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-  
+
     function gtag() {
       dataLayer.push(arguments);
     }
-  
     gtag('js', new Date());
     gtag('config', 'G-B73TDMXKF5');
   </script>
 </body>
+
 </html>
