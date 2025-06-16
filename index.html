@@ -96,9 +96,19 @@
         </div>
 
         <div class="grow">
-          <h1 class="text-lg font-medium text-gray-800 dark:text-neutral-200">
-            Moataz Fawzy
-          </h1>
+          <div class="flex items-center gap-x-2">
+            <h1 class="text-lg font-medium text-gray-800 dark:text-neutral-200">
+              Moataz Fawzy
+            </h1>
+            <!-- Green spot for availability -->
+            <span class="inline-flex items-center">
+              <span class="relative flex h-3 w-3">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500 border-2 border-white dark:border-neutral-900"></span>
+              </span>
+              <span class="ml-1 text-xs text-green-600 dark:text-green-400">Available for work</span>
+            </span>
+          </div>
           <p class="text-sm text-gray-600 dark:text-neutral-400">
             Backend Engineer | architect | AWS
           </p>
